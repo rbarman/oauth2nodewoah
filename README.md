@@ -3,7 +3,7 @@ Simple example of an express rest api with Passport and oauth2.
 
 In this app, users can create contracts. A user wants to integrate a third party client/service that needs access to their contracts. However the client will need permission to access the contracts.
 
-An authorization code will be if the user grants permission to the contract. The client then will need to exchange the authorization code with an access token and use that access token value in its header to make api calls to modify the client's contracts.
+An authorization code will be created if the user grants permission to the contract. The client then will need to exchange the authorization code with an access token and use that access token value in its header to make api calls to modify the client's contracts.
 
 A user can grant the client permission by giving it a acess token. The client can now use this token in its request to access the user's contracts.
 
